@@ -66,9 +66,9 @@ export default function Home() {
       <footer className="flex items-center justify-center w-full h-24 border-t">
         <a
           className="flex items-center justify-center hover:underline"
-          href="https://github.com/tomfa/nextjs-s3-upload"
+          href="https://github.com/Ajay01103/NextJS-14-S3-Upload"
         >
-          github.com/Ajay01103/nextjs-s3-upload
+          github.com/Ajay01103/NextJS-14-S3-Upload
         </a>
       </footer>
     </div>
