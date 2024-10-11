@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next"
 import { getDownloadUrl, getUploadUrl, listFiles } from "@/utils/fileStorage"
 import { APIFileResponse, APIListFileResponse, FileDataDTO } from "../../../types"
-import deleteFileHandler from "./[filename]"
+// import deleteFileHandler from "./[filename]"
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === "GET") {
