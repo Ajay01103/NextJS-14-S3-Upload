@@ -32,7 +32,7 @@ bun dev
                 "s3:GetObject",
                 "s3:DeleteObject"
             ],
-            "Resource": "arn:aws:s3:::ajays-private-bucket/*"
+            "Resource": "arn:aws:s3:::your-bucket/*"
         }
     ]
 }
